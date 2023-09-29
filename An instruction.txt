@@ -20,10 +20,10 @@ Our tasks will be:
 
 The objective of this lab is to make clear the 
 concepts of object-oriented PHP and databases.
-- Classes and objects
-- Interfaces
-- Function
-- Databases
+* Classes and objects
+* Interfaces
+* Function
+* Databases
 
 You will use a version control application (like GitHub). Invite your instructor to your repository using benjamin.mundama@strathmore.edu for him to access and assess your progress.
 

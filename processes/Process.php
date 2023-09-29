@@ -9,7 +9,16 @@ if (isset($_POST["Submit"])) {
     $P = $_POST["Pass"];
     $prcs->Submit($FN, $EM, $P);
     
-    header("Location: index.php");
+    header("Location: ../index.php");
+
+}
+if (isset($_POST["Form"])) {
+    $prcs = new ProcessMethods();
+    $N = $_POST["Name"];
+    $W = $_POST["Write"];
+    $prcs->Form($N, $W);
+    
+    header("Location: ../index.php");
 
 }
 

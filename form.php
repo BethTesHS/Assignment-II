@@ -13,14 +13,12 @@
     ?>
     <br>
     <h1>Fill in the Form</h1>
-    <form action="process.php" method="POST">
-        <lable>Full Name</lable> <br>
-        <input name="Fullname" type="Text" placeholder="Please write your Full Name"> <br>
-        <lable>Email Address</lable> <br>
-        <input name="Email" type="Text" placeholder="Please write your Email Address"> <br>
-        <lable>Password</lable> <br>
-        <input name="Pass" type="Password" placeholder="Please write your Password"> <br>
-        <input name="Submit" type="submit" value="Submit">
+    <form action="processes/process.php" method="POST">
+        <label>Name</label> <br>
+        <input name="Name" type="Text" placeholder="Please write your Full Name"> <br>
+        <label>Write What you want</label> <br>
+        <textarea class="TA" name="Write" type="Text" placeholder="Write about anything you want!"></textarea> <br>
+        <input name="Form" type="submit" value="Submit">
     </form>
 </body>
 </html>
